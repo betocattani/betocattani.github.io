@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  font-family: "courier new", courier, monospace;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 0.6em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15%;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 auto;
+  max-width: 370px;
+  line-height: 35px;
+}
+
+strong {
+  padding: 10px;
+  border: 1px solid black;
+}
+strong:hover {
+  padding: 10px;
+  background: #9B59B6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.github-link {
+  margin-top: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.twitter-link {
+  margin-top: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.linkedin-link {
+  margin-top: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.facebook-link {
+  margin-top: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.github-link:hover img  {
+   -webkit-transform:scale(1.25); /* Safari and Chrome */
+}
