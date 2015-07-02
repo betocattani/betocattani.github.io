@@ -54,6 +54,10 @@ a {
   height: 40px;
 }
 
-.github-link:hover img  {
-   -webkit-transform:scale(1.25); /* Safari and Chrome */
+img {
+  border-radius: 50px;
+}
+
+img:hover  {
+   box-shadow: 5px 10px 25px #000;
 }
