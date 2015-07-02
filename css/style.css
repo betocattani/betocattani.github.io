@@ -17,17 +17,13 @@ h1 {
 
 p {
   margin: 0 auto;
-  max-width: 370px;
+  max-width: 600px;
   line-height: 35px;
+
 }
 
 strong {
   padding: 10px;
-  border: 1px solid black;
-}
-strong:hover {
-  padding: 10px;
-  background: #9B59B6;
 }
 
 a {
