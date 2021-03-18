@@ -11,7 +11,8 @@ h1 {
   letter-spacing: 0.6em;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 15%;
+  margin-top: 70px;
+  margin-bottom: 50px;
   font-weight: bold;
 }
 
@@ -19,20 +20,22 @@ p {
   margin: 0 auto;
   max-width: 600px;
   line-height: 35px;
-
+  margin-bottom: 20px;
 }
 
-strong {
-  padding: 10px;
+li {
+  margin: 0 auto;
+  max-width: 600px;
+  line-height: 35px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .links {
   margin: 0 auto;
   width: 200px;
-}
-
-a {
-  text-decoration: none;
 }
 
 .github-link {
@@ -53,16 +56,14 @@ a {
   height: 40px;
 }
 
-.facebook-link {
-  margin-top: 15px;
-  width: 40px;
-  height: 40px;
-}
-
 img {
   border-radius: 50px;
 }
 
 img:hover  {
    box-shadow: 5px 10px 25px #000;
+}
+
+::selection {
+  background-color: #8a59e2e0;
 }
